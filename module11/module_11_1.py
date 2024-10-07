@@ -1,4 +1,4 @@
-# pillow
+#  библиотека pillow
 from PIL import Image
 
 with Image.open('pict1.jpg') as image:
@@ -7,7 +7,7 @@ with Image.open('pict1.jpg') as image:
     image = image.resize((1024, 640))
     image.save('pict(1024x640).png')
 
-# numpy
+# библиотека numpy
 import numpy as np
 
 a = np.arange(5, 14, 2)
@@ -16,7 +16,7 @@ c = a + b
 c = c * 2
 print('массив c:', c)
 
-# requests
+# библиотека requests
 from pprint import pprint
 
 import requests
